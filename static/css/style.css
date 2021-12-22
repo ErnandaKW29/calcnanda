@@ -1,0 +1,42 @@
+/* Project-wide style */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.button{
+  width:50px;
+  height:50px;
+  font-size:25px;
+  margin: 2;
+  cursor: pointer;
+  background: grey;
+  border:none;
+  color: white;
+}
+.textview{
+  width:217;
+  margin:5;
+  font-size: 25;
+  padding:5;
+  border: none;
+}
+.main{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.bg{
+  background: linear-gradient(to right, rgb(17, 141, 212),rgb(20, 233, 169));
+  height: 100%;
+}
+.button:active{
+  background: rgb(54, 54, 54);
+}
