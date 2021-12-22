@@ -8,7 +8,7 @@ function equal(){
     }
 }
 function clean(){
-    document.form.textview.value = "";
+    documeant.form.textview.value = "";
 }
 function back(){
     var exp = document.form.textview.value;
